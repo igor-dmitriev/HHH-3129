@@ -1,0 +1,7 @@
+server:
+  port: 8004
+
+spring:
+  jpa:
+    properties:
+      hibernate.ejb.interceptor.session_scoped: com.example.hhh3129.interceptor.SimpleInterceptor
